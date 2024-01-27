@@ -58,6 +58,7 @@ tomenu = tk.OptionMenu(root, to_unit_var, *to_unit_ops).pack()
 convert_btn = tk.Button(root, text="Convert", command=convert).pack()
 
 # Output
-out_label = tk.Label(root, text="").pack()
+out_label = tk.Label(root, text="")
+out_label.pack()
 
 root.mainloop()
