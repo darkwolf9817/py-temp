@@ -35,6 +35,7 @@ def convert():
 # Creating the window
 root = tk.Tk()
 root.title("Temp Converter")
+root.geometry("480 x 640")
 
 # Input temperature
 in_label = tk.Label(root, text="Enter Temperature: ").pack()
