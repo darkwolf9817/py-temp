@@ -39,7 +39,8 @@ root.geometry("500x500")
 
 # Input temperature
 in_label = tk.Label(root, text="Enter Temperature: ").pack()
-in_entry = tk.Entry(root).pack()
+in_entry = tk.Entry(root)
+in_entry.pack()
 
 # From unit combobox
 from_unit_var = tk.StringVar(root)
